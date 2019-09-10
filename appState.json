@@ -22,7 +22,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "FrankurtInduuu/lambda.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed d\"});\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -89,7 +89,7 @@
     "projectRegion": "eu-central-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1568109664061
+    "lastSave": 1568109776596
   },
   "VCS_STATE": {
     "provider": "GitHub",
