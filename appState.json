@@ -1,0 +1,101 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "a3cd2e95-0c89-4098-b4ce-6de9d2f984f4": {
+        "id": "a3cd2e95-0c89-4098-b4ce-6de9d2f984f4",
+        "parent": null,
+        "name": "FrankurtInduuu",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "dafecf86-c1bf-4f16-9870-0db5c3a65cc8"
+        ],
+        "isRemovable": false,
+        "filePath": "FrankurtInduuu"
+      },
+      "dafecf86-c1bf-4f16-9870-0db5c3a65cc8": {
+        "id": "dafecf86-c1bf-4f16-9870-0db5c3a65cc8",
+        "parent": "a3cd2e95-0c89-4098-b4ce-6de9d2f984f4",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "FrankurtInduuu/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigeuCentral1californiacheckcalany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "rootNode": "a3cd2e95-0c89-4098-b4ce-6de9d2f984f4",
+    "openFiles": [
+      "dafecf86-c1bf-4f16-9870-0db5c3a65cc8"
+    ],
+    "currentFileId": "dafecf86-c1bf-4f16-9870-0db5c3a65cc8",
+    "resources": {
+      "apigeuCentral1californiacheckcalany": {
+        "name": "apigeuCentral1californiacheckcalany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "eu-central-1",
+          "apiMode": 0,
+          "apiName": "california",
+          "endpointType": "REGIONAL",
+          "resourceMode": 0,
+          "resourceName": "check/cal",
+          "resourcePath": "/check/cal",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "test",
+          "mode": 0
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "FrankurtInduuu",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "eu-central-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1568109664061
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "FrankurtInduuu",
+      "url": "https://github.com/Indunil1992/FrankurtInduuu"
+    }
+  }
+}
